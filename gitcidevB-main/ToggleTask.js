@@ -1,6 +1,4 @@
 const { isNumberObject } = require('util/types');
-const { tasks } = require('./tasks');
-
 function toggleTask(index) {
   const i = Number(index);
   if (!Number.isInteger(i) || i < 0 || i >= tasks.length) return false;
