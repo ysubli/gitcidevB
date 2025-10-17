@@ -1,0 +1,11 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "devDependencies": {
+    "jest": "29.6.1"
+  }
+}
